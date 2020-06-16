@@ -1,0 +1,7 @@
+<!--pages/CardHashMap/CardHashMap.wxml-->
+<view class="main">
+  <image class="main_p" src="/image/mainhashmap.png" mode="heightFix"></image>
+  <view class="text_view">
+    <rich-text class="rich_text" nodes="{{htmlSnip}}"></rich-text>
+  </view>
+</view>

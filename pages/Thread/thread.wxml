@@ -1,0 +1,33 @@
+<!--pages/Thread/thread.wxml-->
+<view class="main">
+  <button class="tip_button" size="mini" style="background-color: #337ab7">
+    <text class="tip_text">{{solve}}</text>
+  </button>
+  <button class="tip_button" size="mini" style="background-color: #5cb85c">
+    <text class="tip_text">{{simple}}</text>
+  </button>
+  <button class="tip_button" size="mini" style="background-color: #f0ad4e">
+    <text class="tip_text">{{medium}}</text>
+  </button>
+  <button class="tip_button" size="mini" style="background-color: #d9534f">
+    <text class="tip_text">{{difficult}}</text>
+  </button>
+  <view class="body">
+      <view class="question_view">
+        <text class="id">id</text>
+        <text class="que_name">题名</text>
+        <text class="dff">难度</text>
+      </view>
+    <scroll-view>
+      <view class="question_view">
+        <text class="id">1</text>
+        <text class="que_name">{{question_name[0]}}</text>
+        <text class="dff">{{question_dff[0]}}</text>
+      </view>
+
+    </scroll-view>
+  </view>
+
+
+</view>
+

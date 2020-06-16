@@ -1,0 +1,26 @@
+/* pages/Search/Search.wxss */
+view.search {
+  display: flex;
+  flex-direction: row;
+  height: 98rpx;
+  background: #efeff4;
+  align-items: center;
+}
+
+view.searchItem {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  flex-direction: row;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+}
+
+.body{
+  font-size: x-small;
+  padding-top: 50px;
+  display: flex;
+  flex-direction:row;
+
+}

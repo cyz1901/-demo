@@ -1,0 +1,109 @@
+<!--pages/Algorithm/Algorithm.wxml-->
+<view class="main">
+  <button class="tip_button" size="mini" style="background-color: #337ab7">
+    <text class="tip_text">{{solve}}</text>
+  </button>
+  <button class="tip_button" size="mini" style="background-color: #5cb85c">
+    <text class="tip_text">{{simple}}</text>
+  </button>
+  <button class="tip_button" size="mini" style="background-color: #f0ad4e">
+    <text class="tip_text">{{medium}}</text>
+  </button>
+  <button class="tip_button" size="mini" style="background-color: #d9534f">
+    <text class="tip_text">{{difficult}}</text>
+  </button>
+  <view class="body">
+      <view class="question_view">
+        <text class="id">id</text>
+        <text class="que_name">题名</text>
+        <text class="dff">难度</text>
+      </view>
+    <scroll-view>
+      <view class="question_view">
+        <text class="id">1</text>
+        <text class="que_name">{{question_name[0]}}</text>
+        <text class="dff">{{question_dff[0]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">2</text>
+        <text class="que_name">{{question_name[1]}}</text>
+        <text class="dff">{{question_dff[1]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">3</text>
+        <text class="que_name">{{question_name[2]}}</text>
+        <text class="dff">{{question_dff[2]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">4</text>
+        <text class="que_name">{{question_name[3]}}</text>
+        <text class="dff">{{question_dff[3]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">5</text>
+        <text class="que_name">{{question_name[4]}}</text>
+        <text class="dff">{{question_dff[4]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">6</text>
+        <text class="que_name">{{question_name[5]}}</text>
+        <text class="dff">{{question_dff[5]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">7</text>
+        <text class="que_name">{{question_name[6]}}</text>
+        <text class="dff">{{question_dff[6]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">8</text>
+        <text class="que_name">{{question_name[7]}}</text>
+        <text class="dff">{{question_dff[7]}}</text>
+      </view>
+  
+      <view class="question_view">
+        <text class="id">9</text>
+        <text class="que_name">{{question_name[8]}}</text>
+        <text class="dff">{{question_dff[8]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">10</text>
+        <text class="que_name">{{question_name[9]}}</text>
+        <text class="dff">{{question_dff[9]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">11</text>
+        <text class="que_name">{{question_name[10]}}</text>
+        <text class="dff">{{question_dff[10]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">12</text>
+        <text class="que_name">{{question_name[11]}}</text>
+        <text class="dff">{{question_dff[11]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">13</text>
+        <text class="que_name">{{question_name[12]}}</text>
+        <text class="dff">{{question_dff[12]}}</text>
+      </view>
+
+      <view class="question_view">
+        <text class="id">14</text>
+        <text class="que_name">{{question_name[13]}}</text>
+        <text class="dff">{{question_dff[13]}}</text>
+      </view>
+    </scroll-view>
+  </view>
+
+
+</view>

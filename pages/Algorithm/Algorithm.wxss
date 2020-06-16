@@ -1,0 +1,52 @@
+/* pages/Algorithm/Algorithm.wxss */
+
+
+.main{
+  background-color:  #efeff4;
+}
+.tip_button{
+  margin-top: 10px;
+  margin-left: 2%;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.tip_text{
+  font-size: small;
+
+}
+
+.question_view{
+
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content:space-between;
+}
+
+
+.view_id{
+
+}
+
+.id{
+
+}
+
+.que_name{
+
+}
+
+.dff{
+
+}
+
+
+.page{
+  background-color: #efeff4;
+}

@@ -1,0 +1,21 @@
+<!--pages/Search/Search.wxml-->
+<view class="search">
+  <view class='searchItem'>
+      <icon type="search"></icon>
+      <input placeholder='请输数据结构与算法' bindconfirm="search" focus="true"></input>
+  </view>
+</view>
+<view class="body">
+  <button class="tip_button" size="mini" style="background-color: #efeff4" disabled="true">
+    <text class="tip_text">栈</text>
+  </button>
+  <button class="tip_button" size="mini" style="background-color: #efeff4" disabled="true">
+    <text class="tip_text">链表</text>
+  </button>
+  <button class="tip_button" size="mini" style="background-color: #efeff4" disabled="true">
+    <text class="tip_text">哈希表</text>
+  </button>
+  <button class="tip_button" size="mini" style="background-color: #efeff4" disabled="true">
+    <text class="tip_text">队列</text>
+  </button>
+</view>

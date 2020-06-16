@@ -1,0 +1,22 @@
+/* pages/CardStack/CardStack.wxss */
+.main{
+  
+}
+
+.main_p{
+  margin-bottom: 1%;
+}
+
+.rich_text{
+  padding-left: 2%;
+}
+
+.text_view{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.p{
+  padding-left: 2%;
+  padding-right: 2%;
+}

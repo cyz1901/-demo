@@ -1,0 +1,70 @@
+
+<view class="search">
+  <view class='searchItem'>
+      <icon type="search"></icon>
+      <input placeholder='请输数据结构与算法' bindfocus="jumpsearch" hold-keyboard="true"></input>
+  </view>
+</view>
+<view class="body">
+  <swiper indicator-dots="true">
+    <swiper-item>
+      <image class="view_image" src="{{daily_one}}"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="view_image" src="{{daily_two}}"></image>
+    </swiper-item>
+  </swiper>
+  <view>
+    <button style="width:20vw;background-color: #fbb026" class="index_botton" size="mini" bindtap="jumpAlgorithm">
+      <view class="button_text">
+        <text>算法</text>
+      </view>
+    </button>
+    <button style="width:20vw;background-color: #3597fc" class="index_botton" size="mini" bindtap="jumpSql">
+          <view class="button_text">
+            <text>sql</text>
+          </view>
+        </button>
+    <button style="width:20vw;background-color: #57b15a" class="index_botton" size="mini" bindtap="jumpShell">
+      <view class="button_text">
+        <text>shell</text>
+      </view>
+    </button>
+    <button style="width:20vw;background-color: #9567d2" class="index_botton" size="mini" bindtap="jumpThread">
+      <view class="button_text">
+        <text>线程</text>
+      </view>
+    </button>
+  </view>
+  <scroll-view>
+    <view class="index_scroll" bindtap="jumpcardstack">
+      <image class="image" src="/image/stack.png" style="width:25vw;height:25vw;"></image>
+      <view class="index_scroll_mini">
+        <text>An array is an ordered sequence \nof elements</text>
+      </view>
+    </view>
+
+    <view class="index_scroll" bindtap="jumpcardhash">
+      <image class="image" src="/image/hashmap.png" ></image>
+      <view class="index_scroll_mini">
+        <text>Hashtable is a data stru-\ncture accessed directly acco-\nrding to key value</text>
+      </view>
+    </view>
+
+    <view class="index_scroll" bindtap="jumpcardlink">
+      <view>
+          <image class="image" src="/image/link.png" ></image>
+      </view>
+      <view class="index_scroll_mini">
+        <text>Linked list is a kind of discontinuous\n and non sequential storage stru-\ncture on physical storage unit</text>
+      </view>
+    </view>
+    
+
+
+
+
+  </scroll-view>
+</view>
+
+
